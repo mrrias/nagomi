@@ -23,7 +23,7 @@
 body {
   background: var(--bg);
   color: var(--text);
-  font-family: Inter, sans-serif;
+  font-family: "Maven Pro", sans-serif;
   transition: 0.3s;
 }
 
@@ -121,15 +121,16 @@ main {
   border: 1px solid var(--border);
   border-radius: 16px;
   padding: 25px;
+  margin-bottom: 20px;
 }
 
 .card h2 {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   color: var(--accent);
 }
 
 .page-links {
-  margin-top: 60px;
+  margin-top: 40px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
@@ -183,4 +184,32 @@ main {
   line-height: 1.6;
   color: var(--text);
   opacity: 0.85;
+}
+
+.shiro-demo-card {
+  margin-top: 20px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 25px;
+
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+.shiro-demo-card h2 {
+  margin-bottom: 15px;
+  color: var(--accent);
+  width: 100%;
+}
+
+.shiro-demo-card p {
+  margin-bottom: 10px;
+}
+
+.shiro-demo-vid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
