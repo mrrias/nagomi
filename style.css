@@ -213,3 +213,12 @@ main {
   height: auto;
   border-radius: 10px;
 }
+
+.quote {
+  font-size: 110%;
+  font-weight: bold;
+}
+
+.subtext {
+  font-size: 85%;
+}
