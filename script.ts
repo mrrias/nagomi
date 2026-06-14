@@ -3,13 +3,13 @@ const sidebar = document.getElementById("sidebar");
 
 if (menuBtn) {
   menuBtn.addEventListener("click", () => {
-    sidebar.classList.toggle("open");
+    sidebar?.classList.toggle("open");
   });
 }
 
 const themeToggle = document.getElementById("themeToggle");
 
-function setTheme(theme) {
+function setTheme(theme: "dark" | "light") {
   document.body.classList.toggle("dark", theme === "dark");
 
   if (themeToggle) {
@@ -21,7 +21,7 @@ function setTheme(theme) {
 
 const savedTheme = localStorage.getItem("theme") || "light";
 
-setTheme(savedTheme);
+setTheme(savedTheme as "light" | "dark");
 
 if (themeToggle) {
   themeToggle.addEventListener("click", () => {
@@ -32,7 +32,7 @@ if (themeToggle) {
 }
 
 document.addEventListener("click", (e) => {
-  if (sidebar && !sidebar.contains(e.target) && !menuBtn.contains(e.target)) {
+  if (sidebar && !sidebar.contains(e.target) && !menuBtn?.contains(e.target)) {
     sidebar.classList.remove("open");
   }
 });

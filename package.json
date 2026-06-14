@@ -1,0 +1,24 @@
+{
+  "name": "nagomi",
+  "version": "1.0.0",
+  "description": "Nagomi's official site",
+  "homepage": "https://github.com/mrrias/nagomi#readme",
+  "bugs": {
+    "url": "https://github.com/mrrias/nagomi/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrrias/nagomi.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "vite": "^8.0.16"
+  }
+}
