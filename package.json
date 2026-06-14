@@ -16,9 +16,15 @@
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vite"
+    "dev": "vite",
+    "build": "vite build --config ./vite.config.ts"
   },
   "dependencies": {
+    "@emnapi/core": "^1.11.1",
+    "@emnapi/runtime": "^1.11.1",
     "vite": "^8.0.16"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.3"
   }
 }
