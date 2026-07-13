@@ -215,12 +215,11 @@ main {
 }
 
 .quote {
-  font-size: 105%;
   font-weight: 500;
 }
 
 .subtext {
-  font-size: 85%;
+  font-size: 80%;
 }
 
 .discord-btn {
