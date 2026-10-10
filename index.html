@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>NagomiㆍCustomisable Server</title>
+
+    <meta
+      name="description"
+      content="Nagomi is a welcoming Discord community focused on mental health, Pride, anime and gaming."
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div id="site">
+      <header class="header">
+        <nav class="navbar">
+          <a href="index.html" class="brand">
+            <span class="brand-logo">
+              <img src="assets/images/logo.png" alt="Nagomi" />
+            </span>
+
+            <span class="brand-name"> Nagomi </span>
+          </a>
+
+          <button
+            class="menu-button"
+            id="menuButton"
+            aria-label="Open navigation"
+            aria-expanded="false"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </nav>
+      </header>
+
+      <div class="menu-overlay" id="menuOverlay"></div>
+
+      <aside class="side-menu" id="sideMenu">
+        <div class="side-menu-header">
+          <h2>Menu</h2>
+
+          <button
+            class="menu-close"
+            id="menuClose"
+            aria-label="Close navigation"
+          >
+            ×
+          </button>
+        </div>
+
+        <nav class="menu-navigation">
+          <a href="index.html" class="menu-link active"> Home </a>
+
+          <a href="pages/about.html" class="menu-link"> About </a>
+
+          <a href="pages/rules.html" class="menu-link"> Rules </a>
+
+          <a href="pages/staff.html" class="menu-link"> Staff </a>
+
+          <a href="pages/faq.html" class="menu-link"> FAQ </a>
+        </nav>
+
+        <div class="menu-footer">
+          <a
+            href="https://discord.gg/67Pnk9GncX"
+            target="_blank"
+            rel="noopener"
+            class="menu-discord"
+          >
+            Join Nagomi
+          </a>
+        </div>
+      </aside>
+
+      <main>
+        <section class="hero">
+          <div class="hero-content">
+            <span class="eyebrow">
+              Mental Health · Pride · Anime · Gaming
+            </span>
+
+            <h1>
+              A place to
+              <span>call home.</span>
+            </h1>
+
+            <p class="hero-description">
+              Nagomi isn't your normal server. We are setup to be customised to
+              your interests. You can chose what you want to talk about and get
+              added to a section with more people with the same interests. We
+              currently have mental health, anime, lgbtqia+ and gaming but are
+              always happy to add more :3
+            </p>
+
+            <div class="hero-buttons">
+              <a
+                href="https://discord.gg/67Pnk9GncX"
+                target="_blank"
+                rel="noopener"
+                class="button button-primary"
+              >
+                Join Nagomi
+              </a>
+
+              <a href="pages/about.html" class="button button-secondary">
+                Learn more
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-card">
+            <img
+              class="hero-symbol"
+              src="/assets/images/logo.png"
+              alt="Nagomi server logo"
+            />
+
+            <h2>Find your space.</h2>
+
+            <p>
+              We aspire to be a kind, loving and accepting space for all. You
+              are and will always be welcome here!
+            </p>
+          </div>
+        </section>
+
+        <section class="section" style="margin-bottom: 150px">
+          <div class="section-heading">
+            <span class="eyebrow"> What we offer </span>
+
+            <h2>Community by design</h2>
+
+            <p>
+              Nagomi brings people together despite differing interests. We aim
+              to build a diverse community based on respect for one another as
+              well as our differences.
+            </p>
+          </div>
+
+          <div class="topic-grid" id="openPopup">
+            <!-- Mental Health Topic Card (Acts as the open button now) -->
+            <!-- TOPIC CARDS -->
+            <a class="topic-card" href="#popup-mental-health">
+              <article>
+                <div class="topic-number">01</div>
+                <h3>Mental Health</h3>
+                <p>
+                  A space for thoughtful conversations, venting and supportive
+                  community interactions.
+                </p>
+              </article>
+            </a>
+
+            <a class="topic-card" href="#popup-pride">
+              <article>
+                <div class="topic-number">02</div>
+                <h3>Pride</h3>
+                <p>
+                  A welcoming environment where people can express themselves
+                  and have their identities and boundaries respected.
+                </p>
+              </article>
+            </a>
+
+            <a class="topic-card" href="#popup-anime">
+              <article>
+                <div class="topic-number">03</div>
+                <h3>Anime</h3>
+                <p>
+                  Talk about your favourite series, characters, stories and
+                  everything else you enjoy.
+                </p>
+              </article>
+            </a>
+
+            <a class="topic-card" href="#popup-gaming">
+              <article>
+                <div class="topic-number">04</div>
+                <h3>Gaming</h3>
+                <p>
+                  Talk about games, share what you're playing, find people to
+                  play with and enjoy gaming together.
+                </p>
+              </article>
+            </a>
+
+            <!-- INDIVIDUAL POPUPS -->
+
+            <!-- 01. Mental Health Popup -->
+            <div class="popup-overlay" id="popup-mental-health">
+              <div class="popup-box">
+                <span class="close-btn">&times;</span>
+                <h2>Mental Health</h2>
+                <p>
+                  Nagomi has set a mental health section for
+                  <strong>venting, general chats, resources and support</strong
+                  >. Our caring community help to carry each other through hard
+                  times and our support staff provide more one to one care for
+                  members going through a particularly rough time.
+                </p>
+              </div>
+            </div>
+
+            <!-- 02. Pride Popup -->
+            <div class="popup-overlay" id="popup-pride">
+              <div class="popup-box">
+                <span class="close-btn">&times;</span>
+                <h2>Pride</h2>
+                <p>
+                  Nagomi has a strong lgbtqia+ community pressense and we intend
+                  to keep it that way. We welcome queer chats throughout the
+                  entire server but we do also provide more private sections for
+                  lgbtqia+ conversation. Our pride section offers
+                  <strong
+                    >resources, lgbt news, general chats and much more</strong
+                  >
+                  for you to check out.
+                </p>
+              </div>
+            </div>
+
+            <!-- 03. Anime Popup -->
+            <div class="popup-overlay" id="popup-anime">
+              <div class="popup-box">
+                <span class="close-btn">&times;</span>
+                <h2>Anime & Manga</h2>
+                <p>
+                  Nagomi carries underlying anime themes so of course we have a
+                  section for all out anime fans. Here we discuss
+                  <strong
+                    >genres, anime, manga, favs and all your hot takes</strong
+                  >. We also hold anime streams and events for all our hardcore
+                  anime fans.
+                </p>
+              </div>
+            </div>
+
+            <!-- 04. Gaming Popup -->
+            <div class="popup-overlay" id="popup-gaming">
+              <div class="popup-box">
+                <span class="close-btn">&times;</span>
+                <h2>Gaming</h2>
+                <p>
+                  Gaming is a big part of many Discord users day to day, so we
+                  had to include it here. We offer
+                  <strong>chats, voice channels, events and more</strong> for
+                  all our gamers in the server. Join and discuss or play
+                  favourite games.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="footer-content">
+          <div>
+            <div class="footer-brand">Nagomi</div>
+
+            <p>Mental Health · Pride · Anime · Gaming</p>
+          </div>
+
+          <div class="footer-links">
+            <a href="index.html"> Home </a>
+
+            <a href="pages/about.html"> About </a>
+
+            <a href="pages/rules.html"> Rules </a>
+
+            <a href="pages/faq.html"> FAQ </a>
+
+            <a
+              href="https://discord.gg/67Pnk9GncX"
+              target="_blank"
+              rel="noopener"
+            >
+              Discord
+            </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
