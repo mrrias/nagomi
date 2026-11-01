@@ -1,170 +1,372 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rules · Nagomi</title>
 
-    <title>Rules · Nagomi</title>
+  <meta name="theme-color" content="#f3a9c2" />
+  <meta property="og:title" content="Rules · Nagomi" />
+  <meta property="og:description" content="Find all our server rules here." />
+  <meta property="og:type" content="website" />
 
-    <meta name="theme-color" content="#f3a9c2" />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
 
-    <meta property="og:title" content="Rules Nagomi" />
+<body>
+  <div id="site">
 
-    <meta property="og:description" content="Find all our server rules here." />
+    <!-- Navigation -->
+    <header class="header">
+      <nav class="navbar">
+        <a href="../index.html" class="brand">
+          <span class="brand-logo">
+            <img src="../assets/images/logo.png" alt="Nagomi" />
+          </span>
+          <span class="brand-name">Nagomi</span>
+        </a>
 
-    <meta property="og:type" content="website" />
+        <button
+          class="menu-button"
+          id="menuButton"
+          aria-label="Open navigation"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </header>
 
-    <link rel="stylesheet" href="../css/style.css" />
-  </head>
+    <!-- Menu Overlay -->
+    <div class="menu-overlay" id="menuOverlay"></div>
 
-  <body>
-    <div id="site">
-      <header class="header">
-        <nav class="navbar">
-          <a href="../index.html" class="brand">
-            <span class="brand-logo">
-              <img src="../assets/images/logo.png" alt="Nagomi" />
-            </span>
+    <!-- Side Menu -->
+    <aside class="side-menu" id="sideMenu">
+      <div class="side-menu-header">
+        <h2>Menu</h2>
+        <button class="menu-close" id="menuClose">×</button>
+      </div>
 
-            <span class="brand-name"> Nagomi </span>
-          </a>
+      <nav class="menu-navigation">
+        <a href="../index.html" class="menu-link">Home</a>
+        <a href="about.html" class="menu-link">About</a>
+        <a href="rules.html" class="menu-link active">Rules</a>
+        <a href="staff.html" class="menu-link">Staff</a>
+        <a href="faq.html" class="menu-link">FAQ</a>
+      </nav>
 
-          <button
-            class="menu-button"
-            id="menuButton"
-            aria-label="Open navigation"
-            aria-expanded="false"
-          >
-            <span></span>
-            <span></span>
-            <span></span>
-          </button>
-        </nav>
+      <div class="menu-footer">
+        <a
+          href="https://discord.gg/B8Ue8bZJMs"
+          target="_blank"
+          rel="noopener"
+          class="menu-discord"
+        >
+          Join Nagomi
+        </a>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main>
+
+      <header class="page-header">
+        <span class="eyebrow">Community Guidelines</span>
+
+        <h1>A little kindness goes a long way.</h1>
+
+        <p>
+          Nagomi is a place where everyone deserves to feel safe,
+          respected and welcomed. These guidelines help us maintain
+          a friendly and supportive environment for everyone.
+          Please take a moment to familiarise yourself with them.
+        </p>
       </header>
 
-      <div class="menu-overlay" id="menuOverlay"></div>
+      <section class="content-grid">
 
-      <aside class="side-menu" id="sideMenu">
-        <div class="side-menu-header">
-          <h2>Menu</h2>
+        <!-- Rule 01 -->
+        <article class="content-card">
+          <h2>01. Respect Everyone</h2>
 
-          <button class="menu-close" id="menuClose">×</button>
+          <p>
+            Treat everyone with kindness, patience and respect,
+            regardless of their background, identity, opinions
+            or experiences.
+          </p>
+
+          <p>
+            Harassment, bullying, discrimination, hate speech,
+            personal attacks, slurs and deliberate attempts to
+            make others uncomfortable are not tolerated.
+          </p>
+        </article>
+
+        <!-- Rule 02 -->
+        <article class="content-card">
+          <h2>02. Respect Identities</h2>
+
+          <p>
+            Everyone deserves to have their identity respected.
+            This includes gender identity, sexuality, names and
+            pronouns.
+          </p>
+
+          <p>
+            Do not invalidate, mock, question or deliberately
+            misgender someone. Everyone is welcome to explore
+            and express themselves without judgement.
+          </p>
+        </article>
+
+        <!-- Rule 03 -->
+        <article class="content-card">
+          <h2>03. Mental Health & Support</h2>
+
+          <p>
+            Nagomi is a supportive community where people can
+            share their feelings, experiences and struggles.
+            Please approach sensitive conversations with
+            compassion and understanding.
+          </p>
+
+          <p>
+            Do not dismiss, shame, mock or invalidate someone's
+            feelings. Avoid giving unsolicited advice, making
+            assumptions about someone's mental health or
+            attempting to diagnose others.
+          </p>
+
+          <p>
+            Remember that we are a peer-support community,
+            not a replacement for professional mental health
+            care or emergency services.
+          </p>
+        </article>
+
+        <!-- Rule 04 -->
+        <article class="content-card">
+          <h2>04. Boundaries & Personal Space</h2>
+
+          <p>
+            Respect everyone's personal boundaries. If someone
+            asks you to stop a conversation, leave them alone
+            or give them space, respect that request.
+          </p>
+
+          <p>
+            Do not pressure others into sharing personal
+            information, discussing uncomfortable topics,
+            participating in conversations or interacting
+            with you.
+          </p>
+
+          <p>
+            No unwanted flirting, love bombing, emotional
+            manipulation or pressuring others for attention.
+          </p>
+        </article>
+
+        <!-- Rule 05 -->
+        <article class="content-card">
+          <h2>05. No E-Dating</h2>
+
+          <p>
+            Nagomi is a community for friendship, support
+            and shared interests, not a dating server.
+          </p>
+
+          <p>
+            E-dating, romantic roleplaying directed at other
+            members, relationship-seeking behaviour and
+            pressuring people into romantic interactions
+            are not permitted.
+          </p>
+
+          <p>
+            Friendly interactions are welcome, but please
+            keep things respectful and appropriate.
+          </p>
+        </article>
+
+        <!-- Rule 06 -->
+        <article class="content-card">
+          <h2>06. Privacy & Confidentiality</h2>
+
+          <p>
+            Respect the privacy of everyone in the community.
+            Do not share another person's private messages,
+            personal information, images or conversations
+            without their permission.
+          </p>
+
+          <p>
+            Do not share personal information belonging to
+            yourself or others that could compromise safety.
+            This includes addresses, phone numbers, passwords
+            and other sensitive information.
+          </p>
+        </article>
+
+        <!-- Rule 07 -->
+        <article class="content-card">
+          <h2>07. Appropriate Content</h2>
+
+          <p>
+            Keep conversations and shared content appropriate
+            for the community. Explicit sexual content,
+            pornography, graphic violence and excessively
+            disturbing material are not permitted.
+          </p>
+
+          <p>
+            Use appropriate channels for their intended
+            purposes, and provide warnings where discussions
+            involve potentially sensitive subjects.
+          </p>
+        </article>
+
+        <!-- Rule 08 -->
+        <article class="content-card">
+          <h2>08. Keep Things Friendly</h2>
+
+          <p>
+            Disagreements happen, and everyone is entitled
+            to their own opinions. However, discussions
+            should remain respectful.
+          </p>
+
+          <p>
+            Do not intentionally provoke arguments, start
+            unnecessary drama, spread rumours or attempt
+            to create conflict between members.
+          </p>
+
+          <p>
+            If a disagreement becomes uncomfortable,
+            step away or contact a staff member.
+          </p>
+        </article>
+
+        <!-- Rule 09 -->
+        <article class="content-card">
+          <h2>09. No Spam or Advertising</h2>
+
+          <p>
+            Avoid excessive messaging, repeated messages,
+            unsolicited mentions, flooding channels or
+            disruptive behaviour.
+          </p>
+
+          <p>
+            Advertising, self-promotion, server invitations
+            and unsolicited promotional links require
+            staff permission.
+          </p>
+        </article>
+
+        <!-- Rule 10 -->
+        <article class="content-card">
+          <h2>10. Follow Discord's Guidelines</h2>
+
+          <p>
+            All members must follow <a style="color: var(--pink-dark); text-decoration: underline;" href="https://discord.com/terms" target="_blank" rel="noopener noreferrer">Discord's Terms of Service</a>
+            and <a style="color: var(--pink-dark); text-decoration: underline;" href="https://discord.com/guidelines" target="_blank" rel="noopener noreferrer">Community Guidelines</a> while participating
+            in Nagomi.
+          </p>
+
+          <p>
+            This includes following applicable age requirements
+            and avoiding prohibited or harmful behaviour.
+          </p>
+        </article>
+
+        <!-- Rule 11 -->
+        <article class="content-card">
+          <h2>11. Listen to Staff</h2>
+
+          <p>
+            Staff members are here to help maintain a safe
+            and welcoming environment. Please cooperate
+            with reasonable moderation requests.
+          </p>
+
+          <p>
+            Do not intentionally evade punishments, bypass
+            restrictions, impersonate staff or interfere
+            with moderation.
+          </p>
+
+          <p>
+            If you disagree with a moderation decision,
+            please discuss it respectfully through the
+            appropriate channels.
+          </p>
+        </article>
+
+        <!-- Rule 12 -->
+        <article class="content-card">
+          <h2>12. Use Common Sense</h2>
+
+          <p>
+            Not every situation can be covered by a written
+            rule. Please use your best judgement and consider
+            how your actions may affect others.
+          </p>
+
+          <p>
+            If something feels inappropriate, harmful or
+            uncomfortable, it probably deserves a second
+            thought.
+          </p>
+
+          <p>
+            When in doubt, reach out to a member of staff.
+          </p>
+        </article>
+
+      </section>
+
+      <!-- Closing Message -->
+      <section class="page-header">
+        <span style="margin-top: 60px;" class="eyebrow">Final note</span>
+
+        <h1>You are valued!</h1>
+
+        <p>
+          We trust our staff to make the right choices when rules are broken.
+          However, even the most exerienced staff can make mistakes.
+          If you feel that a staff member has made an unfair decision,
+          you are incouraged to appeal the punishment and if you feel you are
+          being harrased or targeted in any way, please <strong>reach out to the owner!</strong>
+        </p>
+
+        <p>
+          <small>
+            <i>You can find staff details, including the owner, in the
+            <a style="color: var(--pink-dark); text-decoration: underline; padding-top: 20px;" href="staff.html">staff page</a>.</i>
+          </small>
+        </p>
+      </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div>
+          <div class="footer-brand">Nagomi</div>
+          <p>Mental Health · Pride · Anime · Gaming</p>
         </div>
+      </div>
+    </footer>
 
-        <nav class="menu-navigation">
-          <a href="../index.html" class="menu-link"> Home </a>
+  </div>
 
-          <a href="about.html" class="menu-link"> About </a>
-
-          <a href="rules.html" class="menu-link active"> Rules </a>
-
-          <a href="staff.html" class="menu-link"> Staff </a>
-
-          <a href="faq.html" class="menu-link"> FAQ </a>
-        </nav>
-
-        <div class="menu-footer">
-          <a
-            href="https://discord.gg/B8Ue8bZJMs"
-            target="_blank"
-            rel="noopener"
-            class="menu-discord"
-          >
-            Join Nagomi
-          </a>
-        </div>
-      </aside>
-
-      <main>
-        <header class="page-header">
-          <span class="eyebrow"> Community Rules </span>
-
-          <h1>Keeping Nagomi welcoming.</h1>
-
-          <p>Rules will be coming soon...</p>
-        </header>
-
-        <section class="content-grid">
-          <article class="content-card">
-            <h2>Placeholder</h2>
-
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem
-              error asperiores expedita facere, maxime veritatis quasi ullam ad
-              inventore maiores sed nihil alias consectetur dolor recusandae
-              blanditiis earum beatae nostrum.
-            </p>
-          </article>
-
-          <article class="content-card">
-            <h2>Placeholder</h2>
-
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi
-              quidem nisi, ipsum magnam officiis deserunt quas veritatis saepe
-              excepturi. Omnis rerum quam aliquam quod molestias quae quasi
-              soluta praesentium! Alias?
-            </p>
-          </article>
-
-          <article class="content-card">
-            <h2>Placeholder</h2>
-
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex
-              aspernatur sit, quidem a dicta ut architecto deserunt, rerum
-              impedit quae mollitia molestias ab commodi non repellendus qui
-              quasi iure. Et?
-            </p>
-          </article>
-
-          <article class="content-card">
-            <h2>Placeholder</h2>
-
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut,
-              consequuntur impedit itaque enim odit doloremque hic? Vero esse
-              architecto sed aut at hic quidem, quam adipisci. Fuga placeat
-              animi consequuntur?
-            </p>
-          </article>
-
-          <article class="content-card">
-            <h2>Placeholder</h2>
-
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Dignissimos voluptatem quo facilis. Omnis nam temporibus,
-              mollitia, fugiat facere voluptas facilis ad inventore aliquid
-              architecto, repellendus dolorum ab nesciunt perspiciatis deleniti.
-            </p>
-          </article>
-
-          <article class="content-card">
-            <h2>Placeholder</h2>
-
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-              ullam omnis sint eius expedita tenetur exercitationem voluptatibus
-              impedit optio! Esse laboriosam explicabo fugiat beatae vero
-              ratione. Alias quidem ullam dolorem.
-            </p>
-          </article>
-        </section>
-      </main>
-
-      <footer class="footer">
-        <div class="footer-content">
-          <div>
-            <div class="footer-brand">Nagomi</div>
-
-            <p>Mental Health · Pride · Anime · Gaming</p>
-          </div>
-        </div>
-      </footer>
-    </div>
-
-    <script src="../js/main.js"></script>
-  </body>
+  <script src="../js/main.js"></script>
+</body>
 </html>
